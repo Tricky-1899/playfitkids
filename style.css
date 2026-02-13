@@ -409,3 +409,13 @@ form button[type="submit"]:hover {
   padding: 0.9rem 1rem;
   border-radius: 10px;
 }
+/* Fix logo sizing */
+header img {
+    max-height: 55px;
+    width: auto;
+}
+
+footer img {
+    max-width: 140px;
+    height: auto;
+}
